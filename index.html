@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>The Gotham Archive | Python Automation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="newspaper-container">
+        <header class="masthead">
+            <div class="edition-info">VOL. I ... NO. 001</div>
+            <h1>THE GOTHAM ARCHIVE</h1>
+            <div class="date-info">GOTHAM CITY • JANUARY 1926</div>
+        </header>
+
+        <section class="controls">
+            <p>Enter a topic to summon news from the wires:</p>
+            <div class="input-group">
+                <input type="text" id="topicInput" placeholder="e.g. Astronomy, Gold, Peace">
+                <button id="printBtn">PRINT EDITION</button>
+            </div>
+        </section>
+
+        <main class="printing-press">
+            <div id="status">Ready for next edition...</div>
+            <img id="gazetteImage" src="" alt="">
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
