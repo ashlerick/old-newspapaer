@@ -1,6 +1,6 @@
 # 🦇 THE GOTHAM ARCHIVE
 
-[**View Live Demo**](https://ashlerick.github.io/old-newspapaer/)
+[**View Live Demo**](https://ashlerick.github.io/old-newspaper/)
 
 A full-stack automation project that transforms live global news into a vintage newspaper dispatch. This application bridges a static frontend with a dynamic, serverless Python backend.
 
@@ -34,7 +34,7 @@ This project is built using a decoupled architecture to showcase modern web deve
 
 ## 🗄️ Project Structure
 ```text
-old-newspapaer/
+old-newspaper/
 ├── index.html    # Static UI (GitHub Pages)
 ├── style.css     # Vintage newspaper styling
 ├── script.js     # Frontend logic & API communication
